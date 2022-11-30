@@ -1,0 +1,29 @@
+{
+  "name": "phosphor-astro",
+  "version": "0.0.0",
+  "description": "Phosphor icons as Astro components",
+  "files": [
+    "*.astro"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.mjs",
+    "prebuild": "rm -f ./*.astro",
+    "postpublish": "rm -rf ./*.astro"
+  },
+  "keywords": [
+    "astro",
+    "astro-component",
+    "phosphor",
+    "icons"
+  ],
+  "author": "Sean McPherson <sean@seanmcp.com> (https://github.com/seanmcp)",
+  "repository": "https://github.com/seanmcp/phosphor-astro",
+  "homepage": "https://github.com/seanmcp/phosphor-astro#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "astro": "^1.6.11",
+    "pascalcase": "^2.0.0"
+  }
+}
