@@ -10,6 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node build.mjs",
     "prebuild": "rm -f ./*.astro",
+    "prepublish": "npm run build",
     "postpublish": "rm -rf ./*.astro"
   },
   "keywords": [
