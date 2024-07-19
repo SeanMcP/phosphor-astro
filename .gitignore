@@ -3,6 +3,7 @@
 node_modules/
 SVGs\ Flat/
 phosphor-icons/
+LICENSE
 
 *.tgz
 *.astro
