@@ -9,10 +9,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node build.mjs",
-    "clean": "rm -rf ./*.astro phosphor-icons/ LICENSE *.zip",
-    "prebuild": "rm -f ./*.astro",
-    "prepublish": "npm run build",
-    "postpublish": "npm run clean"
+    "clean:all": "pnpm run \"/^clean:.*/\"",
+    "clean:download": "rm -rf phosphor-icons/ *.zip",
+    "clean:generated": "rm -rf ./*.astro LICENSE",
+    "download": "bash ./download.sh",
+    "prebuild": "pnpm run clean:generated",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "astro",
