@@ -10,6 +10,7 @@ and this project mirrors [Phosphor Icons release versions](https://github.com/ph
 - Changed versioning system
 - Switched to Flat SVGs from Phosphor Icons
 - Included Phosphor Icons' LICENSE in the final library LICENSE
+- Fixes incorrect import in README.md
 
 ## [0.1.0] - 2022-11-29
 
