@@ -7,6 +7,8 @@ and this project mirrors [Phosphor Icons release versions](https://github.com/ph
 
 ## [Unreleased]
 
+## [2.1.0] - 2024-07-20
+
 - Changed versioning system
 - Switched to Flat SVGs from Phosphor Icons
 - Included Phosphor Icons' LICENSE in the final library LICENSE
