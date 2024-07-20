@@ -22,7 +22,7 @@ Import the icons from `phoshor-astro` and add it to your code:
 ---
 import RocketLaunch from 'phosphor-astro/RocketLaunch.astro':
 import ArrowRight from 'phosphor-astro/ArrowRightBold.astro':
-import Sparkle from 'phosphor-astro/outline/Sparkle.astro':
+import Sparkle from 'phosphor-astro/SparkleDuotone.astro':
 ---
 
 <p>
@@ -68,4 +68,4 @@ Any prop that you pass to the component will be added to the top-level `svg` ele
 
 ## License
 
-[MIT](/LICENSE)
+[MIT](/LIBRARY_LICENSE)
